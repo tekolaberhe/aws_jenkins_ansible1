@@ -1,5 +1,6 @@
 all:
   hosts:
+    ip-172-31-62-201.ec2.internal:
     mail.example.com:
   children:
     webservers:
