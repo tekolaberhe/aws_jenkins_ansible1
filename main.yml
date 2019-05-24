@@ -1,5 +1,6 @@
 ---
   - hosts: all
     tasks:
+        - become_user=ec2-user
         - command: hostname
         
