@@ -4,4 +4,6 @@
        - command: hostname
          become: yes
          become_user: ec2-user
+         ping: 172.31.62.201
+
   
