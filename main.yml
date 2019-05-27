@@ -4,7 +4,4 @@
        - command: hostname
          become: yes
          become_user: ec2-user
-     tasks: 
-      - name: ping
-        ping:
   
