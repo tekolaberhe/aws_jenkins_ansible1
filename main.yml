@@ -5,7 +5,7 @@
          become: yes
          become_user: ec2-user
    - name: test remote 
-       commnad: ping
+       command: ping
        args:
           172.31.62.201
 
