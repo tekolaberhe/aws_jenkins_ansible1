@@ -5,7 +5,6 @@
          become: yes
          become_user: ec2-user
        - command: ping
-       args:
-          172.31.62.201
+          ip: 172.31.62.201
 
   
