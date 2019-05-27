@@ -4,7 +4,7 @@
        - command: hostname
          become: yes
          become_user: ec2-user
-       - command: ping
-          ip: 172.31.62.201
-
+     tasks: 
+      - name: ping
+        ping:
   
