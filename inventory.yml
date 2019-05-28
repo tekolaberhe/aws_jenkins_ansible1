@@ -1,14 +1,4 @@
 all:
   hosts:
     ip-172-31-62-201.ec2.internal:
-    ec2-3-85-90-17.compute-1.amazonaws.com:
-    3.85.90.17:
-    mail.example.com:
-  children:
-    webservers:
-      hosts:
-        foo.example.com:
-    dbservers:
-      hosts:
-        one.example.com:
-      
+    ec2-3-85-90-17.compute-1.amazonaws.com:      
