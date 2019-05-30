@@ -1,4 +1,4 @@
--
+---
     name: 'Copy file with owner and permissions'
     copy:
         src: /var/lib/jenkins/workspace/BuildDeployAnsible/test1.txt
