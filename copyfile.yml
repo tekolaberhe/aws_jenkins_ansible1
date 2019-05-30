@@ -1,5 +1,5 @@
 - name: Copy file with owner and permissions
-    copy:
+  copy:
     src: /var/lib/jenkins/workspace/BuildDeployAnsible/test1.txt
     dest: /home/ansible/tmp/
     owner: ansadmin
