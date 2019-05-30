@@ -5,7 +5,7 @@
        - command: hostname
          become: yes
          become_user: ansadmin
-    - name: Copy file with owner and permissions
+   # - name: Copy file with owner and permissions
     copy:
     src: /var/lib/jenkins/workspace/BuildDeployAnsible/test1.txt
     dest: /home/ansible/tmp/
