@@ -1,5 +1,5 @@
 all:
-  hosts: all
+  hosts:
   gather_facts: False
     172.31.62.201
    
